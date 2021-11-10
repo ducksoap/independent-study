@@ -5,7 +5,7 @@ question_prompts = [
     "Which animal do you think is the most impressive?\n(a) Wolf\n(b) Bear\n(c) Snake\n(d) Dragon\n\n",
     "What is your biggest flaw?\n(a) Being disloyal.\n(b) Always yearning for more power.\n(c) Never allowing others to help me.\n(d) Giving up too much of myself for others.\n\n",
     "What motivates you to work hard?\n(a) To be the best at everything I do.\n(b) To find the fullfillment I am longing for.\n(c) The knowledge that people are counting on me.\n(d) To bring honor to my family and friends.\n\n",
-    "Would you say you're a kid at heart?\n(a) Absolutely not!\n(b) On the surface it may seem that way, but in reality, no.\n(c) I suppose so, but I can be mature when it is needed.\n(d) Yup, all the way!\n\n"
+    "Would you say you are a kid at heart?\n(a) Absolutely not!\n(b) On the surface it may seem that way, but in reality, no.\n(c) I suppose so, but I can be mature when it is needed.\n(d) Yup, all the way!\n\n"
 ]
 questions = [
     Question(question_prompts[0], 'a' or 'b' or 'c' or 'd'),
