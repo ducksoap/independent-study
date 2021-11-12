@@ -3,6 +3,7 @@
 <button id="submit">Submit Quiz</button>
 <div id="results"></div>
 </html>
+
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementsById('results');
 const submitButton = document.getElementsById('submit');
