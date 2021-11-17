@@ -31,10 +31,6 @@ def run_test(questions):
             harry += 1
         elif answer == 'd':
             percy += 1
-    print(game)
-    print(lord)
-    print(harry)
-    print(percy)
     if game > lord and harry and percy:
         print('You got: Game of Thrones!')
     elif lord > game and harry and percy:
